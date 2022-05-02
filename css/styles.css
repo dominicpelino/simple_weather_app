@@ -1,0 +1,90 @@
+/* Nav */
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display:inline;
+    text-decoration:none;
+    padding: 0.5vw;
+    color: rgba(255,242,99);
+}
+/* Nav */
+
+
+/* Body */
+body{
+    background-color: gray;
+}
+
+#header{
+    margin: 1%;
+    color: rgb(255,242,99);
+}
+
+/* Form */
+
+#cityDataForm{
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+#cityLabel{
+    color: rgba(255,242,99);
+}
+
+#submitButton{
+   background-color: rgb(0, 0, 0);
+   color: rgba(255,242,99);
+
+}
+
+/* Data div */
+
+#boxOne{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-city-title{
+    background-color: black;
+    color: rgba(255,242,99);
+    margin: 0;
+}
+
+#image{
+    opacity: 50%;
+    z-index: -1;
+}
+
+#photoCred{
+    background-color: black;
+    color: rgba(255,242,99);
+}
+
+#text-block{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.section-group-item{
+    color: rgb(255, 242, 99);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Footer */
+
+#footer{
+    margin-top: 100px;
+}

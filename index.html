@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+<!-- Add script tags here -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script type='text/javascript' src='config.js'></script>
+<script src="js/main.js" defer></script>
+
+<title>Weather App</title>
+</head>
+<body>       
+
+    <h1 id="header" class="text-center">Search for Weather by City</h1>
+    <!-- Data HTML Elements -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <!-- Using DOM to grab form Data -->
+                <form name="cityData" id="cityDataForm" class="text-center">
+
+                    <label id="cityLabel" for="cityName"></label>
+                    <input type="text" name='cityName' id="cityName" placeholder="city">
+                    <br><br><button type="submit" id="submitButton">Get Weather</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Section for API content -->
+        <div class="dataDiv weather-list mt-3">
+            <img class="image" src="css/images/weatherPic.png" alt="Weather Pic">
+        </div>
+    </div>     
+
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <hr>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
